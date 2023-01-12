@@ -12,7 +12,7 @@ const NavBar = () => {
                 <div className="col-md-5">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid $warinig" >
-                            <Link className="navbar-brand" to={"/"}><img src="./imagenes/logo.jpg" alt="Local" width="200" /></Link>
+                            <Link className="navbar-brand" to={"/"}><img src="../imagenes/logo.jpg" alt="Local" width="200" /></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                             </button>

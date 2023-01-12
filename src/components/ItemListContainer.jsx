@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import {productos} from "../assets/productos"
 
-import ItemCount from "./ItemCount"
 import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
@@ -26,9 +25,7 @@ const ItemListContainer = () => {
 
         <div className="container" >
             <ItemList prod = {listarProductos} />
-            <ItemCount inicial = {1} stock = {10} />
         </div>
-
     )
 } 
 

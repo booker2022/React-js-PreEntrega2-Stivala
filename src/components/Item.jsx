@@ -10,7 +10,7 @@ const Item = ({ItemProdu}) => {
                     <div className="card-body">
                         <h5 className="card-title" >{ItemProdu.importe}</h5>
                         <p className="card-text">{ItemProdu.nombre}</p>
-                        <a href="#" className="btn btn-primary">Agregar al Carrito</a>
+                        <a href="/" rel="noreferrer" className="btn btn-primary">Agregar al Carrito</a>
                     </div>
                 </div>
             </Link>
